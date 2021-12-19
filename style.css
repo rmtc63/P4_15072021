@@ -435,48 +435,48 @@ button {
 }
 
 .btn-rd {
-    border-radius: 40px
+    border-radius: 40px;
 }
 
 .btn-clean {
     border: 1px solid rgba(0,0,0,.08);
     border-bottom-color: rgba(0,0,0,.1);
     text-shadow: 0 1px 0 rgba(0,0,1,.1);
-    box-shadow: 0 1px 3px rgba(0,0,1,.25),inset 0 1px 0 0 rgba(255,255,255,.15)
+    box-shadow: 0 1px 3px rgba(0,0,1,.25),inset 0 1px 0 0 rgba(255,255,255,.15);
 }
 
 .icon-md {
-    font-size: 30px!important
+    font-size: 30px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important
+    font-size: 60px!important;
 }
 
 .sm-shadow {
-    text-shadow: 0 1px 2px rgba(0,0,0,.3)
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
 
 .panel-sq,.panel-sq .panel-footer,
 .panel-sq .panel-heading {
-    border-radius: 0
+    border-radius: 0;
 }
 
 .panel-rd {
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 .panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0
+    border-radius: 29px 29px 0 0;
 }
 
 .panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px
+    border-radius: 0 0 29px 29px;
 }
 
 .form-control {
     border-color: rgba(0,0,0,.1);
-    box-shadow: none
+    box-shadow: none;
 }
 
 .scrollToTop {
@@ -487,22 +487,22 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
-    margin-top: 6px
+    margin-top: 6px;
 }
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1
+    opacity: 1;
 }
 
 a[data-lightbox] {
     position: relative;
     display: block;
-    text-align: center
+    text-align: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -520,39 +520,39 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%)
+    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: .6;
     -webkit-animation-fill-mode: none;
-    animation-fill-mode: none
+    animation-fill-mode: none;
 }
 
 #lightbox-modal {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 0
+    margin: 0 auto 0;
 }
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .lightbox-caption {
     padding: 20px;
-    color: #fff;
+    color: #FFFFFF;
     background: rgba(0,0,0,.5);
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px
+    bottom: 5px;
 }
 
 .close-lightbox {
@@ -566,12 +566,12 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: .3
+    opacity: .3;
 }
 
 .close-lightbox:hover,.next-lightbox:hover,.prev-lightbox:hover {
     opacity: 1;
-    color: #fff
+    color: #FFFFFF.
 }
 
 .next-lightbox,.prev-lightbox {
@@ -582,45 +582,45 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: .4
+    opacity: .4;
 }
 
 .next-lightbox {
     padding: 6px 8px 1px 13px;
-    right: 25px
+    right: 25px;
 }
 
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
-    left: 25px
+    left: 25px;
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px
+    padding-bottom: 45px;
 }
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0,0,0,.5);
-    background: 0 0
+    background: 0 0;
 }
 
 .btn,a,h1,h2,h3,h4,h5,h6,label,p {
     font-family: helvetica;
     font-weight: 400;
-    color: #575757!important
+    color: none;
 }
 
 .container {
-    max-width: 1000px
+    max-width: 1000px;
 }
 
 .hero-bloc-text {
-    font-size: 38px
+    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px
+    font-size: 36px;
 }
 
 .statement-bloc-text {
@@ -630,21 +630,21 @@ a[data-lightbox]:hover img {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto
+    margin: auto auto auto auto;
 }
 
 p {
-    font-size: 11px
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto
+    margin: auto auto auto auto;
 }
 
 h1 {
     font-size: 15px;
-    font-family: Helvetica  “Open Sans”
+    font-family: Helvetica  “Open Sans”;
 }
 
 .cta-hero {
@@ -653,60 +653,60 @@ h1 {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto
+    margin: auto auto auto auto;
 }
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em
+    line-height: 1.4em;
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333!important
+    color: #333!important;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0 0 0 #000
+    box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
-    color: #333!important
+    color: #333333!important;
 }
 
 h4 {
-    color: #333!important
+    color: #333333!important;
 }
 
 .icons {
     margin-bottom: 14px;
-    margin-top: 24px
+    margin-top: 24px;
 }
 
 .white {
-    color: #fff!important
+    color: #fff!important;
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px
+    margin-bottom: 24px;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .avatar {
-    box-shadow: 0 4px 9px rgba(0,0,0,.3)
+    box-shadow: 0 4px 9px rgba(0,0,0,.3);
 }
 
 .black-background {
@@ -716,161 +716,163 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important
+    text-decoration: underline!important;
 }
 
 .bgc-white {
-    background-color: #fff
+    background-color: #FFFFFF;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c!important
+    background-color: #F3976C!important;
 }
 
 .tc-white {
-    color: #f3976c!important
+    color: #F3976C!important;
 }
 
 .tc-contact {
-    color: #000
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
-    color: #fff!important
+    background: #F3976C;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #fff!important
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
-    color: #fff!important
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: #ccc!important
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c!important
+    color: #F3976C!important
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
     color: #364577!important;
-    border-color: #364577!important
+    border-color: #364577!important;
 }
 
 .bg-dots-bg {
-    background-image: url(img/dots-bg.png)
+    background-image: url(img/dots-bg.png);
 }
 
 .bg-lines-h2-bg {
-    background-image: url(img/lines-h2-bg.webp) } 
-.bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere.webp) } 
+    background-image: url(img/lines-h2-bg.webp);
+} 
 
+.bg-banniere {
+    background-image: url(img/la-chouette-agence-banniere.webp);
+} 
 
 .bg-presentation {
-    background-image: url(img/image-de-presentation.webp) 
+    background-image: url(img/image-de-presentation.webp);
 
 }
 
 @media (max-width: 1024px) {
     .bloc {
         padding-left:20px;
-        padding-right: 20px
+        padding-right: 20px;
     }
 
     .bloc-tile-2.full-width-bloc .container,.bloc-tile-3.full-width-bloc .container,.bloc-tile-4.full-width-bloc .container,.bloc.full-width-bloc {
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
     }
 }
 
 @media (max-width: 992px) and (min-width:768px) {
     .navbar .nav {
-        max-width:80%
+        max-width:80%;
     }
 
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
     .b-parallax {
-        background-attachment:scroll
+        background-attachment:scroll;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
     .b-parallax {
-        background-attachment:scroll
+        background-attachment:scroll;
     }
 }
 
 @media (max-width: 991px) {
     .container {
-        width:100%
+        width:100%;
     }
 
     .b-parallax {
-        background-attachment: scroll
+        background-attachment: scroll;
     }
 
     #hero-bloc,.page-container {
         overflow-x: hidden;
-        position: relative
+        position: relative;
     }
 
     .bloc-group,.bloc-group .bloc {
         display: block;
-        width: 100%
+        width: 100%;
     }
 
     .bloc-fill-screen .fill-bloc-bottom-edge,
     .bloc-fill-screen .fill-bloc-top-edge {
-        padding: 0 20px
+        padding: 0 20px;
     }
 }
 
 @media (max-width: 767px) {
     .page-container {
         overflow-x:hidden;
-        position: relative
+        position: relative;
     }
 
     #disqus_thread,h1,h2,h3,h4,h5,h6,p {
         padding-left: 20px!important;
-        padding-right: 20px!important
+        padding-right: 20px!important;
     }
 
     .b-parallax {
-        background-attachment: scroll
+        background-attachment: scroll;
     }
 
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0,0,0,.2);
-        float: none!important
+        float: none!important;
     }
 
     .navbar.row {
         margin-left: 0;
-        margin-right: 0
+        margin-right: 0;
     }
 
     .site-navigation {
         position: inherit;
         transform: none;
         -webkit-transform: none;
-        -ms-transform: none
+        -ms-transform: none;
     }
 
     .nav>li {
@@ -879,11 +881,11 @@ h4 {
         background: rgba(0,0,0,.05);
         text-align: left;
         padding-left: 15px;
-        width: 100%
+        width: 100%;
     }
 
     .nav>li:hover {
-        background: rgba(0,0,0,.08)
+        background: rgba(0,0,0,.08);
     }
 
     .dropdown .dropdown a .caret {
@@ -892,60 +894,60 @@ h4 {
         border: 4px solid #000;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        border-left-color: transparent
+        border-left-color: transparent;
     }
 
     #hero-bloc .navbar .nav {
-        background: rgba(0,0,0,.8)
+        background: rgba(0,0,0,.8);
     }
 
     #hero-bloc .navbar .nav a {
-        color: rgba(255,255,255,.6)
+        color: rgba(255,255,255,.6);
     }
 
     .hero {
-        padding: 50px 0
+        padding: 50px 0;
     }
 
     .hero-nav {
         left: -1px;
-        right: -1px
+        right: -1px;
     }
 
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
-        box-shadow: none
+        box-shadow: none;
     }
 
     .navbar-brand img {
         max-height: 40px;
-        width: auto
+        width: auto;
     }
 
     .nav-invert .navbar-header {
         float: none;
-        width: 100%
+        width: 100%;
     }
 
     .nav-invert .navbar-toggle {
         float: left;
-        margin-left: 10px
+        margin-left: 10px;
     }
 
     .bloc {
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
     }
 
     .bloc-lg,.bloc-xl,.bloc-xxl {
-        padding: 40px 0
+        padding: 40px 0;
     }
 
     .bloc-md,.bloc-sm {
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
     }
 
     .bloc-fill-screen .fill-bloc-bottom-edge,
@@ -953,59 +955,59 @@ h4 {
     .bloc-tile-2 .container,.bloc-tile-3 .container,
     .bloc-tile-4 .container {
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
     }
 
     .a-block {
-        padding: 0 10px
+        padding: 0 10px;
     }
 
     .btn-dwn {
-        display: none
+        display: none;
     }
 
     .voffset {
-        margin-top: 5px
+        margin-top: 5px;
     }
 
     .voffset-md {
-        margin-top: 20px
+        margin-top: 20px;
     }
 
     .voffset-lg {
-        margin-top: 30px
+        margin-top: 30px;
     }
 
     form {
-        padding: 5px
+        padding: 5px;
     }
 
     .close-lightbox {
-        display: inline-block
+        display: inline-block;
     }
 
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
-        height: 425px
+        height: 425px;
     }
 
     .blocsapp-device-iphone5 img {
         width: 180px;
-        height: 320px
+        height: 320px;
     }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left:0;
-        padding-right: 0
+        padding-right: 0;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
-        text-align:center
+        text-align:center;
     }
 }
